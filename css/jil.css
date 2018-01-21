@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+#wall{
+	background: url(../images/wall.png);
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+	color: white;
+}
+#wall2{
+	background: url(../images/knwall.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+	color: white;
+}
