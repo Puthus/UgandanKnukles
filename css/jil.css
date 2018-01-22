@@ -157,3 +157,99 @@ html
 .seconds{
 	border-radius:0 10px 10px 0; 
 }
+
+.carousel .carousel-item img {
+  max-height: 900px;
+  min-width:auto;
+	background-size: contain;
+}
+
+.show-box {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  margin: -40px 0 0;
+}
+.show-box::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  border: 1px solid #fff;
+}
+
+.heada{
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
+	width: 100%;
+}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.sponsor {
+  background-color: #f8f8f8;
+}
+.sponsor .sponsor-box {
+  display: block;
+  opacity: 0.3;
+  height: 150px;
+  width: 150px;
+  margin: 25px auto;
+}
+
+.sponsor .sponsor-box:hover {
+  opacity: 1;
+}
+
+.sponsor-box-2 {
+  background: url(../images/AMD.png) no-repeat center center/contain;
+}
+.sponsor .sponsor-box-3 {
+  background: url(../images/Apple.png) no-repeat center center/contain;
+}
+.sponsor .sponsor-box-4 {
+  background: url(../images/hp.png) no-repeat center center/contain;
+}
+.sponsor .sponsor-box-5 {
+  background: url(../images/Intel.png) no-repeat center center/contain;
+}
+.sponsor .sponsor-box-6 {
+  background: url(../images/Oracle.png) no-repeat center center/contain;
+}
+
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+.site-footer .site-info {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.site-footer .site-info a {
+  color: #fff;
+}
+.site-footer .social-block li a {
+  color: #fff;
+}
+.site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
+  opacity: 0.8;
+}
