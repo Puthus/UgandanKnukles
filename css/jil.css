@@ -157,3 +157,37 @@ html
 .seconds{
 	border-radius:0 10px 10px 0; 
 }
+
+.carousel .carousel-item img {
+  max-height: 900px;
+  min-width:auto;
+	background-size: contain;
+}
+
+.show-box {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  margin: -40px 0 0;
+}
+.show-box::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  border: 1px solid #fff;
+}
+
+.heada{
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
+	width: 100%;
+}
+
+
