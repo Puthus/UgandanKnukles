@@ -7,10 +7,62 @@
 	height: 450px;
 	color: white;
 }
-#wall2{
+a,a:hover{
+	color: aliceblue;
+	text-decoration: none;
+	
+}
+/*#wall2{
 	background: url(../images/knwall.jpg);
 	background-position: center;
 	background-size: cover;
 	height: 450px;
 	color: white;
+}*/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+#logs{
+	border-radius: 100px;
+}
+
+.navbar-solid {
+  background-color: #000 !important;
+  padding: 0 !important;
+  -webkit-transition: all 0.2s linear 0s;
+          transition: all 0.2s linear 0s;
+}
+
+.navbar-custom {
+  border: 0;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #000;
+  -webkit-transition: all 0.2s linear 0s;
+          transition: all 0.2s linear 0s;
+}
+
+.navbar-custom .navbar-nav li {
+  margin: 0;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  border-bottom: 1px solid transparent;
+}
+.navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-color: rgba(255, 255, 255, 0.5);
 }
