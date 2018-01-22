@@ -23,6 +23,7 @@ var deadline = '2018-3-18';
 initializeClock('clockdiv', deadline);
 
 function getTimeRemaining(endtime) {
+	"use strict";
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
@@ -38,6 +39,7 @@ function getTimeRemaining(endtime) {
 }
 
 function initializeClock(id, endtime) {
+	"use strict";
   var clock = document.getElementById(id);
   var daysSpan = clock.querySelector('.days');
   var hoursSpan = clock.querySelector('.hours');

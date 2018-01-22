@@ -185,9 +185,68 @@ html
 .heada{
 	margin-top: 20px;
 	-webkit-box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.75);
 	width: 100%;
 }
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+}
 
+.btn {
+  border: 0;
+  border-radius: 0;
+  padding: 6px 28px;
+  text-transform: uppercase;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
+}
+.btn:hover {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.sponsor {
+  background-color: #f8f8f8;
+}
+.sponsor .sponsor-box {
+  display: block;
+  opacity: 0.3;
+  height: 150px;
+  width: 150px;
+  margin: 25px auto;
+}
+
+.sponsor .sponsor-box:hover {
+  opacity: 1;
+}
+
+.sponsor-box-2 {
+  background: url(../images/AMD.png) no-repeat center center/contain;
+}
+.sponsor .sponsor-box-3 {
+  background: url(../images/Apple.png) no-repeat center center/contain;
+}
+.sponsor .sponsor-box-4 {
+  background: url(../images/hp.png) no-repeat center center/contain;
+}
+.sponsor .sponsor-box-5 {
+  background: url(../images/Intel.png) no-repeat center center/contain;
+}
+.sponsor .sponsor-box-6 {
+  background: url(../images/Oracle.png) no-repeat center center/contain;
+}
 
