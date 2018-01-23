@@ -272,3 +272,9 @@ html
 .social-block li a:hover, .social-block li a:focus {
   color: #aaa;
 }
+
+
+#map{
+	width: 100%;
+	height: 400px;
+}

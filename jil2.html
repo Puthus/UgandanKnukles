@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -41,19 +41,10 @@
             </div>
         </div>
     </nav>
-    <!--  <div class="jumbotron site-header" id="wall">
-        <center>
-            <h1 class="text-center">Prepare for the Ugandan Knukles outbrake</h1>
-            <p class="text-center">Worldwide</p>
-            <p class="text-center">2019 January 13th</p>
-            <p>&nbsp;</p>
-            <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Join now</a> </p>
-            <p id="Count"></p>
-        </center>
-    </div>-->
     <header id="site-header" class="site-header valign-center">
         <div class="intro">
+           <br>
+           <br>
             <h1 class="text-center">Prepare for the Ugandan Knuckles outbrake</h1>
             <h2 class="text-center">Uganda</h2>
             <h4 class="text-center">2018 Mars 13th</h4>
@@ -246,7 +237,7 @@
  <section id="location" class="section location">
         <div class="row">
             <div class="col-lg-12 page-header text-center">
-                <h2 class="heada">Where To Find us</h2>
+                <h2 class="heada">WHERE TO FIND US</h2>
                 <h6>&nbsp;</h6>
             </div>
         </div>
@@ -255,11 +246,27 @@
                 <div class="col-sm-3">
                     <h3 class="section-title">Outbreak Location</h3>
                     <address>
-                        <p>Eardenia<br> The Grand Hall<br> House # 08, Road #52, Street<br> Phone: +1159t3764<br> Email: example@mail.com</p>
+                        <p>Uganda<br> Ngwedo village<br> House # 08, Road #52, Street<br> Phone: +888-smthelse<br> Email: Sonic@sega.com</p>
                     </address>
                 </div>
                 <div class="col-sm-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96706.50013548559!2d-78.9870674333782!3d40.76030630398601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sbd!4v1436299406518" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div id="map"></div>
+					<script>
+					  function initMap() {
+						var uluru = {lat: 2.145390, lng: 31.492993};
+						var map = new google.maps.Map(document.getElementById('map'), {
+						  zoom: 10,
+						  center: uluru
+						});
+						var marker = new google.maps.Marker({
+						  position: uluru,
+						  map: map
+						});
+					  }
+					</script>
+					<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtbrzHtzplwkQYBDR1AcXz_I0s6sncgXk&callback=initMap">
+    </script>
                 </div>
             </div>
         </div>
